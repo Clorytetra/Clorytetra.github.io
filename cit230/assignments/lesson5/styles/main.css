@@ -14,7 +14,6 @@ body {
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    opacity: .9;
 
 }
 
@@ -26,7 +25,10 @@ footer {
     padding: 5px;
 }
 
-header {}
+header {
+    background-image: url(../images/smallbanner.jpg);
+    height: 246px;
+}
 
 header h1 {}
 

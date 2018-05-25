@@ -6,6 +6,10 @@
         background-size: cover;
     }
 
+    header{
+        background-image: url(../images/banner.jpg);
+    }
+
     nav button {
         display: none;
     }
@@ -21,8 +25,8 @@
     th,
     td {
 
-
-        border: 1px solid mediumpurple;
+        background-color:black;
+        border: 2px solid mediumpurple;
         color: white;
         padding: 5px;
         font-size: 12pt;
