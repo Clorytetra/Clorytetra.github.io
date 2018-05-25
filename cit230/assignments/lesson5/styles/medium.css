@@ -1,0 +1,44 @@
+@media only screen and (min-width: 600px) {
+
+    body {
+
+        background-image: url(../images/mediumbackground.jpg);
+        background-size: cover;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    section.forecast {
+
+        display: contents;
+        text-align: center;
+
+    }
+
+    table,
+    th,
+    td {
+
+
+        border: 1px solid mediumpurple;
+        color: white;
+        padding: 5px;
+        font-size: 12pt;
+    }
+
+    ul{
+        list-style-type: none;
+        font-size: 20pt;
+        text-align: center;
+    }
+
+    li{
+        display: inline;
+    }
+
+
+
+
+}
