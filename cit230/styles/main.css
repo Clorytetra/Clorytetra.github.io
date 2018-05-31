@@ -1,7 +1,11 @@
+
+
+
 body {
 
     background-image: url('../images/background.jpg');
     background-size: 100%;
+    background-attachment: fixed;
     width: 78.1%;
     margin-left: auto;
     margin-right: auto;

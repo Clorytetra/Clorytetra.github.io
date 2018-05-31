@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, inital-scale=1">
+    <meta name="description" content="Franklin Weather Page">
+    <link rel="icon" href="images/icon.png">
+    <title>Franklin Weather</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spectral">
+    <script src="scripts/navbutton.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+
+    </nav>
+    <br>
+    <br>
+    <br>
+    <main>
+        <h2>Franklin</h2>
+        <br>
+        <br>
+        <figure>
+        </figure>
+        <section class="weather-summary">
+            <h3>Weather Summary</h3>
+            <br>
+            <br>
+            <div class="highlow">
+                <p>High: 260.928&deg;K</p>
+                <p>Low: 0&deg;K</p>
+            </div>
+            <div class="current">
+                <p>Ice</p>
+                <picture>
+                    <img src="images/frost.png" alt="frost icon">
+                </picture>
+            </div>
+            <div class="conditions">
+                <p>Precipitation: 200%</p>
+                <p>Wind Speed: 670,000,000 mph NNW</p>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section class="forecast">
+            <h3>Ten Day Forecast</h3>
+            <br>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>171.965&deg;K</td>
+                        <td>259.999&deg;K</td>
+                        <td>260.251&deg;K</td>
+                        <td>150.896&deg;K</td>
+                        <td>240.256&deg;K</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                   <tr>
+                    <th>Day 6</th>
+                    <th>Day 7</th>
+                    <th>Day 8</th>
+                    <th>Day 9</th>
+                    <th>Day 10</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                   <tr>
+                    <td>250.455&deg;K</td>
+                    <td>50.468&deg;K</td>
+                    <td>12.564&deg;K</td>
+                    <td>425.126&deg;K</td>
+                    <td>500.265&deg;K</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <article>
+            <h3>Franklin Breaks Record</h3>
+            <br>
+            <br>
+            <img src="images/doorway.jpg" alt="Scary Doorway">
+            <p class="town-article">
+            </p>
+        </article>
+
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="contact">
+            <p>Taylor Piggott 999.999.9999 525 S Center St, Rexburg, ID 83460</p>
+        </div>
+        <div class="footer-bar">
+            <p>&copy;2018 | All Rights Reserved | Weather Readings | <span id="currentdate">5/25/18</span></p>
+        </div>
+    </footer>
+
+</body>
+</html>
