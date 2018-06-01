@@ -1,4 +1,4 @@
-function dateMaker(){
+function dateMaker() {
 
     var md = new Date();
     var monthDay = md.getDate();

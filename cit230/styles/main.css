@@ -1,32 +1,40 @@
+* {
+
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+html{
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+}
+
+
+header,
+nav,
+main,
+body,
+footer {
+    max-width: 1000px;
+}
 
 
 
 body {
 
-    background-image: url('../images/background.jpg');
-    background-size: 100%;
-    background-attachment: fixed;
-    width: 78.1%;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    border-radius: 2px;
     opacity: .9;
 }
 
 
-header {
 
-    text-align: center;
-    background-image: url('../images/banner.jpg');
-    background-size: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 225px;
 
+#banner{
+    max-width: 1000px;
+    padding: 1px;
 }
 
 
@@ -35,7 +43,7 @@ main {
 
     height: 600px;
     background-color: black;
-    padding: 20px;
+    padding: 10px;
 
 }
 
@@ -58,7 +66,6 @@ footer {
 
     height: 50px;
     text-align: center;
-    padding: 1px;
     font-size: 15px;
     background-color: black;
 
