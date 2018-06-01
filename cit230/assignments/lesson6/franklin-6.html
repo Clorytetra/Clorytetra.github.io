@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spectral">
-    <script src="scripts/navbutton.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
 
 </head>
 
-<body>
+<body onload="dateMaker()">
 
     <header>
 
@@ -42,6 +43,9 @@
         <h2>Franklin</h2>
         <br>
         <br>
+        <img src="images/franklin-small.jpg" alt="picture of franklin" srcset="images/franklin-small.jpg 600w,
+                images/franklin-medium.jpg 1024w,
+                images/franklin-large.jpg 1920w">
         <figure>
         </figure>
         <section class="weather-summary">
@@ -143,7 +147,7 @@
             <p>Taylor Piggott 999.999.9999 525 S Center St, Rexburg, ID 83460</p>
         </div>
         <div class="footer-bar">
-            <p>&copy;2018 | All Rights Reserved | Weather Readings | <span id="currentdate">5/25/18</span></p>
+            <p>&copy;2018 | All Rights Reserved | Weather Readings | <span id="todaysDate"></span></p>
         </div>
     </footer>
 
