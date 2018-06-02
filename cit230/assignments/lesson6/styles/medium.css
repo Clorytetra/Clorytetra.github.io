@@ -9,8 +9,33 @@
         background-image: url(../images/banner.jpg);
     }
 
+
+
     nav button {
         display: none;
+    }
+
+
+    nav ul{
+        font-size: 13.4pt;
+
+    }
+
+    nav ul.hide{
+        display: block;
+    }
+
+    nav ul li{
+        float: left;
+        border-left: solid 1px rebeccapurple;
+        border-right: solid 1px rebeccapurple;
+
+    }
+
+    nav ul li a{
+        border: none;
+        padding: 9px;
+
     }
 
     section.forecast {
@@ -30,33 +55,6 @@
         padding: 5px;
         font-size: 12pt;
     }
-
-
-
-    nav ul{
-        font-size: 17pt;
-        text-align: center;
-        align-content: center;
-        margin-left: 2%;
-
-    }
-
-    nav ul.hide{
-        display: block;
-    }
-
-    nav ul li{
-        float: left;
-        border-right: solid 1px rebeccapurple;
-
-    }
-
-    nav ul li a{
-        border: none;
-        padding: 2px;
-
-    }
-
 
 
 }

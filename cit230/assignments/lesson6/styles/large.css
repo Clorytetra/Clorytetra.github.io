@@ -9,8 +9,16 @@
 
     nav ul{
         margin-left: 20%;
+        font-size: 17pt;
     }
 
+    nav ul li a{
+        border: none;
+        padding: 4px;
+        margin-left: 5x;
+        margin-right: 5px;
+
+    }
 
 
 
