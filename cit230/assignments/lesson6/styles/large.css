@@ -1,18 +1,18 @@
-@media only screen and (min-width: 1024px ) {
+@media only screen and (min-width: 1024px) {
 
 
-    html{
+    html {
 
         background-image: url(../images/largebackground.jpg);
         background-size: cover;
     }
 
-    nav ul{
+    nav ul {
         font-size: 17pt;
         margin-left: 15%;
     }
 
-    nav ul li a{
+    nav ul li a {
         border: none;
         padding: 4px;
         margin-left: 5px;

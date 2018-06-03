@@ -5,7 +5,7 @@
         background-image: url(../images/mediumbackground.jpg);
     }
 
-    header{
+    header {
         background-image: url(../images/banner.jpg);
     }
 
@@ -16,23 +16,23 @@
     }
 
 
-    nav ul{
+    nav ul {
         font-size: 13.4pt;
 
     }
 
-    nav ul.hide{
+    nav ul.hide {
         display: block;
     }
 
-    nav ul li{
+    nav ul li {
         float: left;
         border-left: solid 1px rebeccapurple;
         border-right: solid 1px rebeccapurple;
 
     }
 
-    nav ul li a{
+    nav ul li a {
         border: none;
         padding: 9px;
 
@@ -49,7 +49,7 @@
     th,
     td {
 
-        background-color:black;
+        background-color: black;
         border: 2px solid mediumpurple;
         color: white;
         padding: 5px;
