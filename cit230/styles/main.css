@@ -53,6 +53,7 @@ main {
     float: right;
     border-radius: 5%;
     filter: grayscale(50%);
+
 }
 
 a, li, html  {
