@@ -13,37 +13,33 @@
 
     #primaryNav {
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-around;
 
     }
 
-    .weather-summary{
-        display:flex;
-        justify-content: flex-start;
-    }
 
     nav ul {
         font-size: 14pt;
+
     }
 
     nav ul li {
         border-left: solid 2px rebeccapurple;
         border-right: solid 2px rebeccapurple;
+
     }
 
     nav ul li a {
+        display: flex;
+        justify-content: center;
         width: 150px;
     }
 
-    .conditions {
-        display: flex;
-        justify-content: flex-end;
-    }
 
     #pictures {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 100px;
+        grid-gap: 50px;
     }
 
 

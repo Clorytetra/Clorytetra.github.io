@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="eng-us">
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -12,12 +14,12 @@
 
 <body>
 
-<header>
+    <header>
 
 
-</header>
+    </header>
 
-<nav>
+    <nav>
         <button onclick="toggleMenu()">&#9776;</button>
 
         <ul id="primaryNav" class="hide">
@@ -26,35 +28,90 @@
             <li><a href="#">Greenville</a></li>
             <li><a href="#">Springfield</a></li>
             <li><a href="#">Storm Center</a></li>
-            <li  class="active"><a href="#">Gallery</a></li>
+            <li class="active"><a href="#">Gallery</a></li>
         </ul>
 
 
 
-</nav>
+    </nav>
 
 
-<main>
+    <main>
 
-    <div id="pictures">
-        <div id="pictureArticle"><img src="images/airport-large.jpg" alt="airport lightning"><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p></div>
+        <div id="pictures">
 
-        <div id="pictureArticle"><img src="images/atmosphere-large.jpg" alt="snow in a park">
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p></div>
+            <div id="pictureArticle">
 
-        <div id="pictureArticle"><img src="images/branches-large.jpg" alt="snowy lake">
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p></div>
+                <picture>
+                    <source srcset="images/airport-small.jpg" media="(max-width: 1023px)">
+                    <source srcset="images/airport-large.jpg">
+                    <img src="images/airport-large.jpg" alt="airport lightning">
+                </picture>
 
-        <div id="pictureArticle"><img src="images/clouds-large.jpg" alt="stormy clouds">
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p></div>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
 
-        <div id="pictureArticle"><img src="images/cold-freezing-large.jpg" alt="frosty street">
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p></div>
+            </div>
 
-        <div id="pictureArticle"><img src="images/cold-large.jpg" alt="cold forest">
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p></div>
+            <div id="pictureArticle">
 
-    </div>
+                <picture>
+                    <source srcset="images/atmosphere-small.jpg" media="(max-width: 1023px)">
+                    <source srcset="images/atmosphere-large.jpg">
+                    <img src="images/atmosphere-large.jpg" alt="snow in a park">
+                </picture>
+
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+
+            </div>
+
+            <div id="pictureArticle">
+
+                <picture>
+                    <source srcset="images/branches-small.jpg" media="(max-width: 1023px)">
+                    <source srcset="images/branches-large.jpg">
+                    <img src="images/branches-large.jpg" alt="snow in a park">
+                </picture>
+
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+
+            </div>
+
+            <div id="pictureArticle">
+
+                <picture>
+                    <source srcset="images/clouds-small.jpg" media="(max-width: 1023px)">
+                    <source srcset="images/clouds-large.jpg">
+                    <img src="images/clouds-large.jpg" alt="snow in a park">
+                </picture>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+
+            </div>
+
+            <div id="pictureArticle">
+
+                <picture>
+                    <source srcset="images/cold-freezing-small.jpg" media="(max-width: 1023px)">
+                    <source srcset="images/cold-freezing-large.jpg">
+                    <img src="images/cold-freezing-large.jpg" alt="snow in a park">
+                </picture>
+
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+
+            </div>
+
+            <div id="pictureArticle">
+
+                <picture>
+                    <source srcset="images/cold-small.jpg" media="(max-width: 1023px)">
+                    <source srcset="images/cold-large.jpg">
+                    <img src="images/cold-large.jpg" alt="snow in a park">
+                </picture>
+
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+
+            </div>
+
+        </div>
 
 
 
@@ -62,20 +119,20 @@
 
 
 
-</main>
+    </main>
 
 
-<footer>
+    <footer>
         <div class="contact">
             <p>Taylor Piggott 999.999.9999 525 S Center St, Rexburg, ID 83460</p>
         </div>
         <div class="footer-bar">
             <p>&copy;2018 | All Rights Reserved | Weather Readings | <span id="todaysDate"></span></p>
         </div>
-</footer>
+    </footer>
 
 
-<script src="scripts/hamburger.js"></script>
-<script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
 </body>
 </html>

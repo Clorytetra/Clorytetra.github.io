@@ -41,19 +41,16 @@
         <h2>Franklin</h2>
         <br>
         <br>
-        <img src="images/franklin-small.jpg" alt="picture of franklin" srcset="images/franklin-small.jpg 600w,
-                images/franklin-medium.jpg 1024w,
-                images/franklin-large.jpg 1920w">
-        <figure>
-        </figure>
+        <picture>
+            <source srcset="images/franklin-small.jpg" media="(max-width: 599px)">
+            <source srcset="images/franklin-medium.jpg" media="(max-width: 1023px)">
+            <source srcset="images/franklin-large.jpg" media="(max-width: 2000px)">
+            <img src="images/franklin-large.jpg" alt="farnklin weather">
+        </picture>
         <br>
         <br>
         <h3>Weather Summary</h3>
         <section class="weather-summary">
-            <br>
-            <br>
-            <br>
-            <br>
             <div class="highlow">
                 <p>High: <span id="high">20</span>&deg;F</p>
                 <p>Low: <span id="low">2</span>&deg;K</p>
@@ -75,13 +72,9 @@
         <br>
         <br>
         <br>
-
-
         <section class="forecast">
             <h3>Ten Day Forecast</h3>
-            <br>
-            <br>
-            <table>
+            <table id="tenForecast">
                 <thead>
                     <tr>
                         <th>Day 1</th>
@@ -129,11 +122,12 @@
         <br>
         <article>
             <h3>Franklin Breaks Record</h3>
-
+           <section id="franklinReport">
             <img src="images/doorway.jpg" alt="Scary Doorway">
-            <p class="town-article">
-            </p>
+               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            </section>
         </article>
+
 
     </main>
     <br>
@@ -145,12 +139,8 @@
     <br>
     <br>
     <footer>
-        <div class="contact">
-            <p>Taylor Piggott 999.999.9999 525 S Center St, Rexburg, ID 83460</p>
-        </div>
-        <div class="footer-bar">
-            <p>&copy;2018 | All Rights Reserved | Weather Readings | <span id="todaysDate"></span></p>
-        </div>
+        <p>Taylor Piggott 999.999.9999 525 S Center St, Rexburg, ID 83460</p>
+        <p>&copy;2018 | All Rights Reserved | Weather Readings | <span id="todaysDate"></span></p>
     </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
