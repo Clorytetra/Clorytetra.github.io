@@ -1,0 +1,59 @@
+@media only screen and (min-width: 600px) {
+
+    html {
+
+        background-image: url(../images/mediumbackground.jpg);
+    }
+
+    header {
+        background-image: url(../images/banner.jpg);
+    }
+
+    #primaryNav{
+        display: flex;
+    }
+
+    nav button {
+        display: none;
+    }
+
+
+    nav ul {
+        font-size: 13.4pt;
+    }
+
+    nav ul li {
+        border-left: solid 1px rebeccapurple;
+        border-right: solid 1px rebeccapurple;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: 9px;
+
+    }
+
+
+
+    section.forecast {
+
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    table,
+    th,
+    td {
+
+        background-color: black;
+        border: 2px solid mediumpurple;
+        color: white;
+        padding: 5px;
+        font-size: 12pt;
+    }
+
+
+}

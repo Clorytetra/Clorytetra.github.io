@@ -1,0 +1,145 @@
+* {
+
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+html {
+
+    background-image: url(../images/smallbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+
+    font-size: 20px;
+    font-family: 'Spectral', serif;
+    color: white;
+
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 1890px;
+    padding: 5px;
+}
+
+header {
+
+    background-image: url(../images/smallbanner.jpg);
+    height: 246px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+nav {
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: mediumpurple;
+    background-color: black;
+    margin-top: 5px;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    margin: 2px;
+    font-size: 44px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20pt;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav ul li a {
+    display: flex;
+    padding: 8px;
+    text-decoration: none;
+    border-top: 1px solid mediumpurple;
+}
+
+nav a {
+    color: white;
+}
+
+nav a.visited {
+    color: purple;
+}
+
+nav li.active {
+    background-color: purple;
+
+}
+
+nav a:hover {
+    background-color: rebeccapurple;
+}
+
+
+
+main {
+
+    padding-top: 10px;
+}
+
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+.weather-summary{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+main figure img {}
+
+footer {
+    font-size: 10pt;
+    text-align: center;
+    border-style: solid;
+    border-color: mediumpurple;
+    border-width: 2px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+
+    color: skyblue;
+}
+
+article {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+
+section.forecast {
+
+    display: none;
+}
+
+
