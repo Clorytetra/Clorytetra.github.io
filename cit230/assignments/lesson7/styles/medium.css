@@ -35,6 +35,13 @@
     }
 
 
+    .weather-summary{
+
+        flex-direction: row;
+
+    }
+
+
 
     section.forecast {
 
@@ -70,6 +77,13 @@
 
     #pictureArticle {
         padding: 50px;
+    }
+
+    footer{
+
+        display: flex;
+        height: 30px;
+
     }
 
 }

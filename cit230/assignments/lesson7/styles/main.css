@@ -95,7 +95,7 @@ main {
 .weather-summary {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
@@ -104,14 +104,25 @@ main {
 
 footer {
 
-    display: flex;
+    /*display: flex;
     justify-content: center;
     align-items: center;
     height: 30px;
     padding-top: 0px;
     padding-bottom: 0px;
     font-size: 9pt;
+    border: solid 1px mediumpurple;*/
+
+    display: grid;
+    font-size: 9pt;
+    grid-template-columns: 350px;
+    grid-template-rows: 30px 30px;
+    align-items: center;
+    justify-content: center;
     border: solid 1px mediumpurple;
+    padding: 0px;
+    height: 60px;
+
 }
 
 h1,
