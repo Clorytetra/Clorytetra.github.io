@@ -42,7 +42,7 @@
 
     }
 
-    #pictureArticle:hover{
+    .pictureArticle:hover{
 
         box-shadow: inset 0px 0px 400px skyblue;
         border-radius: 25px;
