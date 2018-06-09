@@ -68,21 +68,21 @@
 
     #pictures {
         display: grid;
-        grid-template-columns: .5fr .5fr;
-        grid-gap: 50px;
+        grid-template-columns: 1fr 1fr;
         margin-top: 30px;
         margin-bottom: 30px;
 
     }
 
     .pictureArticle {
-        padding: 50px;
+        padding-left: 10px;
     }
 
     footer{
 
         display: flex;
         height: 30px;
+        font-size: 10pt;
 
     }
 
