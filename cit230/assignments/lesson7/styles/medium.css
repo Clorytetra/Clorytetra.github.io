@@ -68,7 +68,7 @@
 
     #pictures {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: .5fr .5fr;
         margin-top: 30px;
         margin-bottom: 30px;
 
