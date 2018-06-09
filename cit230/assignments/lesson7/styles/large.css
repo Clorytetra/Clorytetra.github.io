@@ -40,17 +40,16 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 50px;
+
     }
 
     #pictureArticle:hover{
 
-        box-shadow: 0px 0px grey;
+        box-shadow: inset 0px 0px 400px skyblue;
+        border-radius: 25px;
     }
 
-    footer {
 
-        font-size: 11pt
-    }
 
 
 }

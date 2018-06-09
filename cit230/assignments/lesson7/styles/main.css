@@ -104,14 +104,15 @@ main {
 
 
 footer {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-size: 9pt;
-    text-align: center;
-    border-style: solid;
-    border-color: mediumpurple;
-    border-width: 2px;
+    border: solid 1px mediumpurple;
 }
-
 
 h1,
 h2,
