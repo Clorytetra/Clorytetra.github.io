@@ -103,15 +103,6 @@ main {
 
 footer {
 
-    /*display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font-size: 9pt;
-    border: solid 1px mediumpurple;*/
-
     display: grid;
     font-size: 7pt;
     grid-template-columns: 350px;

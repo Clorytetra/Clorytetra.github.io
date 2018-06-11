@@ -35,7 +35,7 @@
     }
 
 
-    .weather-summary{
+    .weather-summary {
 
         flex-direction: row;
 
@@ -51,7 +51,7 @@
 
     }
 
-    #tenForecast{
+    #tenForecast {
         max-width: 400px;
     }
 
@@ -78,12 +78,17 @@
         padding-left: 10px;
     }
 
-    footer{
+    footer {
 
         display: flex;
         height: 30px;
         font-size: 10pt;
 
+
+    }
+
+    footer p {
+        padding-left: 10px;
     }
 
 }
