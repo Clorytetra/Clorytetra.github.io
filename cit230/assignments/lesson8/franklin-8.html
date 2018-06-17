@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Franklin Weather Page">
+    <link rel="icon" href="images/icon.png">
+    <title>Franklin Weather</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spectral">
+
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+
+    </nav>
+    <br>
+    <br>
+    <br>
+    <main>
+        <h2>Franklin</h2>
+        <br>
+        <br>
+        <picture>
+            <source srcset="images/franklin-small.jpg" media="(max-width: 599px)">
+            <source srcset="images/franklin-medium.jpg" media="(max-width: 1023px)">
+            <source srcset="images/franklin-large.jpg" media="(max-width: 2000px)">
+            <img src="images/franklin-large.jpg" alt="farnklin weather">
+        </picture>
+        <br>
+        <br>
+        <h3>Weather Summary</h3>
+        <div class="weather-summary">
+            <div class="highlow">
+                <p>High: <span id="high">20</span>&deg;F</p>
+                <p>Low: <span id="low">2</span>&deg;F</p>
+            </div>
+            <div class="current">
+                <p>Ice</p>
+                <img src="images/frost.png" alt="frost icon">
+            </div>
+            <div class="conditions">
+                <p>Precipitation: 200%</p>
+                <p>Wind Speed: <span id=windSpeed>70</span> MPH</p>
+                <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section class="forecast">
+            <h3>Ten Day Forecast</h3>
+            <table id="tenForecast">
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>25&deg;F</td>
+                        <td>15&deg;F</td>
+                        <td>30&deg;F</td>
+                        <td>35&deg;F</td>
+                        <td>40&deg;F</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>35&deg;F</td>
+                        <td>15&deg;F</td>
+                        <td>10&deg;F</td>
+                        <td>20&deg;F</td>
+                        <td>18&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+            <h3>Franklin Breaks Record</h3>
+            <div id="franklinReport">
+                <img src="images/doorway.jpg" alt="Scary Doorway">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            </div>
+        </section>
+
+
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p>Taylor Piggott | 999.999.9999 | 525 S Center St, Rexburg, ID 83460</p>
+        <p>&copy;2018 | All Rights Reserved | Weather Readings | <span id="todaysDate"></span></p>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
