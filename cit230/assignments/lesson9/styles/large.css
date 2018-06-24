@@ -49,9 +49,12 @@
 
     #springfield {
         grid-column: span 1;
-        width: 400px;
         margin-left: 0px;
 
+    }
+
+    #springfield, #greenville, #franklin{
+        width: 400px;
     }
 
     #story {
