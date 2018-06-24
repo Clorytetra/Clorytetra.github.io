@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Page for Weather Readings">
+    <link rel="icon" href="images/icon.png">
+    <title>Weather Readings: Home Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spectral">
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="franklin.html">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+
+
+
+    </nav>
+
+    <main>
+
+        <section id="story">
+            <h2>Our Story</h2>
+            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+        </section>
+
+        <section id="townArticles">
+            <div id="franklin">
+                <h3>Franklin</h3>
+                <p>Town Stats</p>
+                <p>Motto: <span id="franklinMotto"></span></p>
+                <p>Year Founded: <span id="franklinYear"></span></p>
+                <p>Current Population: <span id="franklinPopulation"></span></p>
+                <p>Annual Rainfall: <span id="franklinRain"></span>"</p>
+                <img src="images/franklinsign.jpg" alt="Franklin Sign">
+
+            </div>
+
+            <div id="greenville">
+                <h3>Greenville</h3>
+                <p>Town Stats</p>
+                <p>Motto: <span id="greenvilleMotto"></span></p>
+                <p>Year Founded: <span id="greenvilleYear"></span></p>
+                <p>Current Population: <span id="greenvillePopulation"></span></p>
+                <p>Annual Rainfall: <span id="greenvilleRain"></span>"</p>
+                <img src="images/greenvillesign.jpg" alt="Greenville Sign">
+            </div>
+
+            <div id="springfield">
+                <h3>Springfield</h3>
+                <p>Town Stats</p>
+                <p>Motto: <span id="springfieldMotto"></span></p>
+                <p>Year Founded: <span id="springfieldYear"></span></p>
+                <p>Current Population: <span id="springfieldPopulation"></span></p>
+                <p>Annual Rainfall: <span id="springfieldRain"></span>"</p>
+                <img src="images/springfieldsign.jpg" alt="Springfield Sign">
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+
+
+
+    <footer>
+        <p>Taylor Piggott | 999.999.9999 | 525 S Center St, Rexburg, ID 83460</p>
+        <p>&copy;2018 | All Rights Reserved | Weather Readings | <span id="todaysDate"></span></p>
+    </footer>
+
+
+
+
+
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/towndata.js"></script>
+</body>
+</html>
