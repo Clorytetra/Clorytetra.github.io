@@ -1,4 +1,4 @@
-var weatherData
+var weatherData;
 var weatherDataURL = 'https://api.openweathermap.org/data/2.5/weather?zip=55333,us&appid=57e57ee1ee90b26d04f618ff10e48bfc&units=imperial';
 
 var request = new XMLHttpRequest();

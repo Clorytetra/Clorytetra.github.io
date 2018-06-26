@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Franklin Weather Page">
     <link rel="icon" href="images/icon.png">
-    <title>Franklin Weather</title>
+    <title id="test">Franklin Weather</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -50,6 +50,17 @@
         </picture>
         <br>
         <br>
+        <div id="franklinPage">
+            <p>Town Stats</p>
+            <div id="franklinStat">
+                <p>Motto: <span id="franklinMotto"></span></p>
+                <p>Year Founded: <span id="franklinYear"></span></p>
+                <p>Current Population: <span id="franklinPopulation"></span></p>
+                <p>Annual Rainfall: <span id="franklinRain"></span>"</p>
+            </div>
+            <img src="images/franklinsign.jpg" alt="Franklin Sign">
+
+        </div>
         <h3>Weather Summary</h3>
         <div class="weather-summary">
             <div class="temp">
@@ -147,6 +158,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/weatherdata.js"></script>
+    <script src="scripts/towndata.js"></script>
 </body>
 
 </html>

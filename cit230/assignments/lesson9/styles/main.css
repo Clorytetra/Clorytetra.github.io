@@ -136,12 +136,35 @@ main {
 
 /*Franklin*/
 
+
+#franklinPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: inset;
+    border-color: rebeccapurple;
+    border-width: 1px;
+    background-color: black;
+    opacity: .8;
+    padding: 5px;
+    margin-top: 10px;
+    width: 300px;
+
+}
+
+#franklinPage > p{
+    margin: 5px;
+}
+
+
 .weather-summary {
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-transform: capitalize;
 }
 
 

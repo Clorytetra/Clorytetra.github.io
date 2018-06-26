@@ -75,6 +75,23 @@
 
 
 /*Franklin*/
+
+    #franklinPage{
+
+        width: 600px;
+        margin: auto;
+
+
+    }
+
+    #franklinStat{
+        display: grid;
+        grid-template-columns: 290px 290px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
     .weather-summary {
 
         flex-direction: row;
