@@ -1,20 +1,20 @@
 var townData;
 var townDataURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
-var request = new XMLHttpRequest();
-request.open('GET', townDataURL);
-request.responseType = 'json';
-request.send();
+var townRequest = new XMLHttpRequest();
+townRequest.open('GET', townDataURL);
+townRequest.responseType = 'json';
+townRequest.send();
 
-request.onload = function () {
-    townData = request.response;
+townRequest.onload = function () {
+    townData = townRequest.response;
     console.log(townData)
-    dataFiller();
+    townFiller();
 
 }
 
 
-function dataFiller() {
+function townFiller() {
 
     var motto = ["franklinMotto", "greenvilleMotto", "blah", "springfieldMotto"]
     var year = ["franklinYear", "greenvilleYear", "blah", "springfieldYear"]

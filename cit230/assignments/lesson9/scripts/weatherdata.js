@@ -1,19 +1,19 @@
 var weatherData;
 var weatherDataURL = 'https://api.openweathermap.org/data/2.5/weather?zip=55333,us&appid=57e57ee1ee90b26d04f618ff10e48bfc&units=imperial';
 
-var request = new XMLHttpRequest();
-request.open('GET', weatherDataURL);
-request.responseType = 'json';
-request.send();
+var weatherRequest = new XMLHttpRequest();
+weatherRequest.open('GET', weatherDataURL);
+weatherRequest.responseType = 'json';
+weatherRequest.send();
 
-request.onload = function() {
-    weatherData = request.response;
+weatherRequest.onload = function() {
+    weatherData = weatherRequest.response;
     console.log(weatherData)
-    dataFiller();
+    weatherFiller();
 
 }
 
-function dataFiller(){
+function weatherFiller(){
 
     var averageTemp = (parseInt(weatherData.main.temp_max) + parseInt(weatherData.main.temp_min)) /2;
     var windChill = 35.74 + (0.6215 * averageTemp) - (35.75 * Math.pow(weatherData.wind.speed, 0.16)) + (0.4275 * averageTemp * Math.pow(weatherData.wind.speed, .16));
