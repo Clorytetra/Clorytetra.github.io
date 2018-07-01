@@ -46,7 +46,7 @@
 
     .townStat {
         display: grid;
-        grid-template-columns: 290px 290px;
+        grid-template-columns: 280px 280px;
         text-align: center;
         align-items: center;
         justify-content: center;
