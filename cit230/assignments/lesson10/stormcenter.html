@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head w3-include-html="moduels/head.html">
+    <title>Storm Center: Forms</title>
+</head>
+
+<body>
+
+    <header></header>
+
+    <nav w3-include-html="moduels/nav.html"></nav>
+
+
+    <main>
+        <h3>What do the spirits tell you about the weather.</h3>
+        <form action="thanks.html" method="get">
+            <div id="textInput">
+
+                <div>
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" title="A minimum of five characters are required." pattern="[A-Za-z -]{5,}" required>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" title="Email" placeholder="example@email.com">
+                </div>
+
+                <div>
+                    <label for="tel">Telephone Number:</label>
+                    <input type="tel" id="tel" name="tel" title="Telephone Number" pattern="[0-9-]{10,}" placeholder="###-###-####" required>
+                </div>
+
+                <div>
+                    <label for="zipCode">Zip Code:</label>
+                    <input type="number" id="zipCode" name="zipCode" title="Zip Code" required>
+                </div>
+
+                <div>
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date">
+                </div>
+            </div>
+            <br><br><br>
+            <div id="buttonInput">
+                <div>
+                    <span>Storm Type:</span><br>
+                    <div id="stormTypeOptions">
+                        <input type="radio" id="flashFlood" class="radio" name="stormType" value="Flash Flood" required>
+                        <label for="flashFlood">Flash Flood</label>
+                        <input type="radio" id="hail" class="radio" name="stormType" value="Hail">
+                        <label for="hail">Hail</label>
+                        <input type="radio" id="hurricane" class="radio" name="stormType" value="Hurricane">
+                        <label for="hurricane">Hurricane</label>
+                        <input type="radio" id="thunderstorm" class="radio" name="stormType" value="Thunderstorm">
+                        <label for="thunderstorm">Thunderstorm</label>
+                        <input type="radio" id="tornado" class="radio" name="stormType" value="Tornado">
+                        <label for="tornado">Tornado</label>
+                    </div>
+                </div>
+                <div id="slider">
+                    <label for="stormSeverity">Storm Severity: <span id="severityValue">5</span></label>
+                    <input type="range" id="stormSeverity" name="stormSeverity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                </div>
+                <div>
+                    <label for="stormRegion">Storm Region:</label>
+                    <select name="stormRegion" id="stormRegion">
+                        <option>Select Region</option>
+                        <option value="franklin">Franklin</option>
+                        <option value="greenville">Greenville</option>
+                        <option value="sprinfield">Springfield</option>
+                    </select>
+                </div>
+                <div>
+                    <span>Are you in danger?</span>
+                    <div id="dangerOptions">
+                        <input type="radio" id="yes" class="radio" name="danger" value="Yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" class="radio" name="danger" value="No">
+                        <label for="no">No</label>
+                        <input type="radio" id="slightly" class="radio" name="danger" value="Maybe">
+                        <label for="slightly">Slightly</label>
+                    </div>
+                </div>
+
+            </div>
+            <div id="commentSection">
+                <label for="comments">Any aditional comments?</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                <input id="submitButton" type="submit" value="Save">
+            </div>
+
+
+
+        </form>
+
+
+
+    </main>
+
+
+    <footer w3-include-html="moduels/footer.html"></footer>
+
+    <script src="scripts/w3.js"></script>
+    <script src="scripts/moduelize.js"></script>
+    <script src="scripts/wayfind.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+</body>
+</html>

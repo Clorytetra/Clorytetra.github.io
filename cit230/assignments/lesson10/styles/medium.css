@@ -1,0 +1,214 @@
+@media only screen and (min-width: 600px) {
+
+    html {
+
+        background-image: url(../images/mediumbackground.jpg);
+    }
+
+    header {
+        background-image: url(../images/banner.jpg);
+    }
+
+    #mainmenu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav button {
+        display: none;
+    }
+
+
+    nav ul {
+        font-size: 13.4pt;
+    }
+
+    nav ul li {
+        border-left: solid 1px rebeccapurple;
+        border-right: solid 1px rebeccapurple;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: 9px;
+
+    }
+
+
+    .town {
+
+        display: flex;
+        width: 600px;
+        margin: auto;
+        border-width: 5px;
+
+    }
+
+    .townStat {
+        display: grid;
+        grid-template-columns: 290px 290px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .weather-summary {
+
+        flex-direction: column;
+        margin: auto;
+        border-width: 5px;
+        width: 600px;
+        margin-top: 10px;
+
+
+
+    }
+
+    section.forecast {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    table,
+    th,
+    td {
+
+        background-color: black;
+        border: 2px solid mediumpurple;
+        color: white;
+        text-align: center;
+        width: 600px;
+        font-size: 18pt;
+    }
+
+    table {
+        padding: 15px;
+    }
+
+
+    /*Home*/
+    #story {
+        display: flex;
+        width: 700px;
+        margin-top: 90px;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 10px;
+
+    }
+
+
+    .townArticle {
+        margin-top: 0px;
+        border-width: 5px;
+    }
+
+    #springfield {
+        grid-column: span 2;
+        width: 320px;
+        margin: auto;
+
+    }
+
+    #townArticles {
+
+        display: grid;
+        grid-template-columns: 320px 320px;
+        justify-content: center;
+        grid-gap: 40px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+
+
+    }
+
+
+
+
+
+
+
+    /*Springfield*/
+    /*Gallery*/
+    #pictures {
+        display: grid;
+        grid-template-columns: .5fr .5fr;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .pictureArticle {
+        padding-left: 10px;
+    }
+
+
+    /*Storm Center*/
+    #textInput {
+
+        display: grid;
+        grid-template-columns: 220px 220px;
+        grid-column-gap: 250px;
+        justify-content: center;
+    }
+
+    #buttonInput {
+        display: grid;
+        grid-template-columns: 320px 320px;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        grid-column-gap: 50px;
+
+    }
+
+    #slider {
+        display: flex;
+        align-items: center;
+    }
+
+    #commentSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    textarea {
+        width: 400px;
+    }
+
+    #submitButton {
+        margin-left: 300px;
+        margin-top: 20px;
+        border-radius: 10px;
+        border-color: mediumpurple;
+        border-width: 2px;
+        background-color: black;
+        color: white;
+
+    }
+
+
+
+
+
+    footer {
+
+        display: flex;
+        height: 30px;
+        font-size: 10pt;
+
+
+    }
+
+    footer p {
+        padding-left: 10px;
+    }
+
+}

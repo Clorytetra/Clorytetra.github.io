@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+<head w3-include-html="moduels/head.html">
+    <title>Weather Readings: Home Page</title>
+    <span class="hidden" id="townCode">-1</span>
+</head>
+
+
+
+<body>
+
+    <header></header>
+
+    <nav w3-include-html="moduels/nav.html">
+
+
+    </nav>
+
+    <main>
+
+        <section id="story">
+            <h2>Our Story</h2>
+            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+        </section>
+
+        <section id="townArticles">
+            <div class="townArticle">
+                <h3>Franklin</h3>
+                <p>Town Stats</p>
+                <p>Motto: <span id="franklinMotto"></span></p>
+                <p>Year Founded: <span id="franklinYear"></span></p>
+                <p>Current Population: <span id="franklinPopulation"></span></p>
+                <p>Annual Rainfall: <span id="franklinRain"></span>"</p>
+                <img src="images/franklinsign.jpg" alt="Franklin Sign">
+
+            </div>
+
+            <div class="townArticle">
+                <h3>Greenville</h3>
+                <p>Town Stats</p>
+                <p>Motto: <span id="greenvilleMotto"></span></p>
+                <p>Year Founded: <span id="greenvilleYear"></span></p>
+                <p>Current Population: <span id="greenvillePopulation"></span></p>
+                <p>Annual Rainfall: <span id="greenvilleRain"></span>"</p>
+                <img src="images/greenvillesign.jpg" alt="Greenville Sign">
+            </div>
+
+            <div class="townArticle" id="springfield">
+                <h3>Springfield</h3>
+                <p>Town Stats</p>
+                <p>Motto: <span id="springfieldMotto"></span></p>
+                <p>Year Founded: <span id="springfieldYear"></span></p>
+                <p>Current Population: <span id="springfieldPopulation"></span></p>
+                <p>Annual Rainfall: <span id="springfieldRain"></span>"</p>
+                <img src="images/springfieldsign.jpg" alt="Springfield Sign">
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+
+
+
+    <footer w3-include-html="moduels/footer.html"></footer>
+
+
+
+
+    <script src="scripts/w3.js"></script>
+    <script src="scripts/wayfind.js"></script>
+    <script src="scripts/moduelize.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/towndata.js"></script>
+</body>
+</html>

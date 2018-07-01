@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head w3-include-html="moduels/head.html">
+
+    <title>Greenville Weather</title>
+    <span class="hidden" id="zip">29601</span>
+    <span class="hidden" id="townCode">1</span>
+</head>
+
+<body>
+
+    <header></header>
+
+    <nav w3-include-html="moduels/nav.html"></nav>
+
+    <main>
+
+        <h1>Greenville Information</h1>
+        <br>
+        <br>
+        <picture>
+            <source srcset="images/franklin-small.jpg" media="(max-width: 599px)">
+            <source srcset="images/franklin-medium.jpg" media="(max-width: 1023px)">
+            <source srcset="images/franklin-large.jpg" media="(max-width: 2000px)">
+            <img src="images/franklin-large.jpg" alt="farnklin weather">
+        </picture>
+        <br>
+        <br>
+        <div id="test">
+            <div class="town">
+                <h2>Town Stats</h2>
+                <div class="townStat">
+                    <p>Motto: <span id="greenvilleMotto"></span></p>
+                    <p>Year Founded: <span id="greenvilleYear"></span></p>
+                    <p>Current Population: <span id="greenvillePopulation"></span></p>
+                    <p>Annual Rainfall: <span id="greenvilleRain"></span>"</p>
+                </div>
+                <div class="events">
+                    <p>Events:<br><br><span id="event1"></span></p>
+                    <p><span id="event2"></span></p>
+                    <p><span id="event3"></span></p>
+                </div>
+                <img src="images/greenvillesign.jpg" alt="Greenville Sign">
+            </div>
+
+
+            <div class="weather-summary">
+                <h2>Weather</h2>
+                <div class="temp">
+                    <p>Temperature: <span id="current"></span>&deg;F</p>
+                    <p>High: <span id="high"></span>&deg;F</p>
+                    <p>Low: <span id="low"></span>&deg;F</p>
+                </div>
+                <div class="current">
+                    <p>Current Conditions: <span id="currentCondtions"></span></p>
+                    <p>Current Description: <span id="description"></span></p>
+                </div>
+                <div class="conditions">
+                    <p>Humidity: <span id="humidity"></span>%</p>
+                    <p>Wind Speed: <span id=windSpeed></span> MPH</p>
+                    <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section class="forecast">
+            <h2>Ten Day Forecast</h2>
+            <table id="tenForecast">
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>25&deg;F</td>
+                        <td>15&deg;F</td>
+                        <td>30&deg;F</td>
+                        <td>35&deg;F</td>
+                        <td>40&deg;F</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>35&deg;F</td>
+                        <td>15&deg;F</td>
+                        <td>10&deg;F</td>
+                        <td>20&deg;F</td>
+                        <td>18&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+            <h1>Greenville Breaks Record</h1>
+            <div class="report">
+                <img src="images/doorway.jpg" alt="Scary Doorway">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            </div>
+        </section>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </main>
+
+
+    <footer w3-include-html="moduels/footer.html"></footer>
+
+
+
+
+    <script src="scripts/w3.js"></script>
+    <script src="scripts/moduelize.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/wayfind.js"></script>
+    <script src="scripts/towndata.js"></script>
+    <script src="scripts/weatherdata.js"></script>
+</body>
+</html>
+

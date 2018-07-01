@@ -1,0 +1,333 @@
+html {
+
+    background-image: url(../images/smallbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 20px;
+    font-family: 'Spectral', serif;
+}
+
+body {
+    color: white;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+
+    color: skyblue;
+}
+
+
+
+
+header,
+nav,
+main,
+footer {
+    max-width: 1890px;
+    padding: 5px;
+}
+
+header {
+
+    background-image: url(../images/smallbanner.jpg);
+    height: 246px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.hidden {
+    display: none;
+}
+
+
+nav {
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: mediumpurple;
+    background-color: black;
+    margin-top: 5px;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    margin: 2px;
+    font-size: 44px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20pt;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav ul li a {
+    display: flex;
+    padding: 8px;
+    text-decoration: none;
+    border-top: 1px solid mediumpurple;
+}
+
+nav a {
+    color: white;
+}
+
+nav a.visited {
+    color: purple;
+}
+
+.active {
+    background-color: purple;
+
+}
+
+nav a:hover {
+    background-color: rebeccapurple;
+}
+
+
+main {
+
+    padding-top: 10px;
+}
+
+
+
+.town, .weather-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: inset;
+    border-color: rebeccapurple;
+    border-width: 1px;
+    background-color: black;
+    opacity: .8;
+    padding: 5px;
+    margin-top: 10px;
+    margin: auto;
+    width: 400px;
+
+}
+
+.town > p {
+    margin: 5px;
+}
+
+
+
+/*home*/
+
+#townArticles {
+    display: grid;
+    grid-gap: 10px
+}
+
+.townArticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: inset;
+    border-color: rebeccapurple;
+    border-width: 1px;
+    background-color: black;
+    opacity: .8;
+    padding: 5px;
+    margin-top: 10px;
+    margin: auto;
+    width: 400px;
+
+
+}
+
+
+.townArticle > p {
+    margin: 5px;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.events > p {
+    margin: 7px;
+}
+
+
+
+
+/*Franklin*/
+
+.weather-summary {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+
+.report {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 400px;
+    margin: auto;
+    font-size: 12pt;
+}
+
+.pictureArticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+section.forecast {
+
+    display: none;
+}
+
+
+/*Springfield*/
+
+/*Storm Center*/
+
+form {
+    padding: 5px;
+
+}
+
+
+#thanks {
+    text-align: center;
+    margin-top: 90px;
+}
+
+
+label {
+    margin-right: 40px;
+}
+
+
+
+#textInput {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+
+#buttonInput {
+    display: grid;
+    grid-gap: 40px;
+}
+
+
+#stormTypeOptions {
+
+    display: grid;
+    grid-template-columns: 50px 200px;
+    grid-gap: 5px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+
+#dangerOptions {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 30px 30px;
+    margin-left: 70px;
+    margin-top: 10px;
+
+}
+
+
+#slider {
+    display: flex;
+    flex-direction: row;
+}
+
+
+input[type=radio] {
+    height: 25px;
+    border: none;
+    width: 50px;
+}
+
+
+select {
+    color: white;
+    background: black;
+    border-color: mediumpurple;
+    border-width: 2px;
+    border-radius: 5px;
+
+}
+
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=date],
+input[type=number] {
+
+    border-style: inset;
+    border-color: mediumpurple;
+    border-width: 2px;
+    border-radius: 5px;
+
+}
+
+#commentSection {
+    margin-top: 50px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 450px;
+    border-style: inset;
+    border-width: 2px;
+    border-color: mediumpurple;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+footer {
+
+    display: grid;
+    font-size: 7pt;
+    grid-template-columns: 350px;
+    grid-template-rows: 20px 20px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px mediumpurple;
+    padding: 0px;
+    height: 40px;
+
+}

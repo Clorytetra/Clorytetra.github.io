@@ -8,7 +8,6 @@ townRequest.send();
 
 townRequest.onload = function () {
     townData = townRequest.response;
-    console.log(townData)
     townFiller();
 
 }
@@ -23,7 +22,7 @@ function townFiller() {
 
 
 
-    if (document.getElementById("test").innerHTML == "Franklin Weather") {
+    if (document.getElementById("pageID").innerHTML == "Franklin Weather") {
 
         document.getElementById(motto[0]).innerHTML = townData.towns[0].motto;
         document.getElementById(year[0]).innerHTML = townData.towns[0].yearFounded;
