@@ -66,6 +66,11 @@
 
     }
 
+    .report{
+        width: 700px;
+        justify-content: flex-start;
+    }
+
     section.forecast {
 
         display: flex;
