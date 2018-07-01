@@ -41,9 +41,9 @@
 
     .weather-summary{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 1000px;
+        flex-direction: column;
+        justify-content: center;
+        width: 600px;
         margin: auto;
     }
 
@@ -55,9 +55,9 @@
     #townArticles {
 
         display: grid;
-        grid-template-columns: 400px 400px 400px;
+        grid-template-columns: 300px 300px 300px;
         justify-content: center;
-        grid-gap: 100px;
+        grid-gap: 45px;
         margin-top: 20px;
 
 
@@ -65,12 +65,12 @@
 
     #springfield {
         grid-column: span 1;
-        width: 400px;
+        width: 300px;
 
     }
 
    .townArticle {
-        width: 400px;
+        width: 300px;
     }
 
     #story {

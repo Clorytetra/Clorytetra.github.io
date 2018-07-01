@@ -38,7 +38,7 @@
     .town {
 
         display: flex;
-        width: 600px;
+        width: 550px;
         margin: auto;
         border-width: 5px;
 
@@ -59,7 +59,7 @@
         flex-direction: column;
         margin: auto;
         border-width: 5px;
-        width: 600px;
+        width: 550px;
         margin-top: 10px;
 
 
@@ -67,7 +67,7 @@
     }
 
     .report{
-        width: 700px;
+        width: 500px;
         justify-content: flex-start;
     }
 
@@ -88,7 +88,7 @@
         border: 2px solid mediumpurple;
         color: white;
         text-align: center;
-        width: 600px;
+        width: 550px;
         font-size: 18pt;
     }
 
@@ -100,7 +100,7 @@
     /*Home*/
     #story {
         display: flex;
-        width: 700px;
+        width: 600px;
         margin-top: 90px;
         justify-content: center;
         flex-direction: column;
@@ -112,11 +112,14 @@
     .townArticle {
         margin-top: 0px;
         border-width: 5px;
+        border-width: 5px;
+        width: 300px;
+        height: 500px;
+
     }
 
     #springfield {
         grid-column: span 2;
-        width: 400px;
         margin: auto;
 
     }
@@ -124,11 +127,11 @@
     #townArticles {
 
         display: grid;
-        grid-template-columns: 400px 400px;
+        grid-template-columns: 300px 300px;
         justify-content: center;
-        grid-gap: 40px;
         margin-top: 20px;
         margin-bottom: 40px;
+
 
 
     }
