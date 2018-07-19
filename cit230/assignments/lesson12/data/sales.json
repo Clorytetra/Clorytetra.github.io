@@ -1,0 +1,32 @@
+{
+    "bikes": [{
+            "brand": "Cannondale",
+            "model": "Touring Apex 1 SE - 2018",
+            "price": "2,399.99",
+            "img": "apex.jpg"
+    },
+        {
+            "brand": "Trek",
+            "model": "Top Fuel 8 - 2018",
+            "price": "3,749.99",
+            "img": "fuel.jpg"
+                 },
+        {
+            "brand": "Electra",
+            "model": "Ticino 7D- 2017",
+            "price": "899.99",
+            "img": "electra.jpg"
+                 },
+        {
+            "brand": "Fyxation",
+            "model": "Eastside - 2017",
+            "price": "689.99",
+            "img": "fyxation.jpg"
+                 }
+
+                ]
+
+
+
+
+}
