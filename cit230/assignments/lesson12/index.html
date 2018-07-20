@@ -8,6 +8,7 @@
 <body>
 
     <header w3-include-html="moduels/header.html"></header>
+    <nav w3-include-html="moduels/nav.html"></nav>
 
 
 
@@ -16,7 +17,12 @@
         <article id="sunrise">
 
             <h1>Want an adventure?</h1>
-            <img src="images/sunrise.jpg" alt="Biker Looking at Sunrise">
+            <picture>
+                <source srcset="images/sunrise-small.jpg" media="(max-width: 599px)">
+                <source srcset="images/sunrise.jpg" media="(max-width: 1023px)">
+                <img src="images/sunrise.jpg" alt="Biker looking at Sunrise">
+            </picture>
+            <br>
 
 
             <span>Did you ever just want to go outside and experience nature?</span>
@@ -24,7 +30,7 @@
             <br>
             <button><a href="contact.html">Contact Us</a></button>
             <br>
-            <span>201 S Colorado Ave, Buena Vista, CO 81211</span>
+            <span>624 Connaught Dr, Jasper, AB T0E 1E0, Canada</span>
             <span>(805)545-8760</span>
         </article>
 

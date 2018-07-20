@@ -3,25 +3,37 @@
             "brand": "Cannondale",
             "model": "Touring Apex 1 SE - 2018",
             "price": "2,399.99",
-            "img": "apex.jpg"
+            "img": "apex",
+            "frame": "Touring, SmartForm C2 Alloy, SAVE, BSA",
+            "fork": "Touring, full alloy, 1-1/8\", fender and mid-blade mounts",
+            "rims": "WTB STP i25 TCS, 28-hole"
     },
         {
             "brand": "Trek",
             "model": "Top Fuel 8 - 2018",
             "price": "3,749.99",
-            "img": "fuel.jpg"
+            "img": "fuel",
+            "frame": "Alpha Platinum Aluminum, ABP, Full Floater, EVO link, E2 tapered head tube, Mino Link, MicroTruss, internal derailleur and dropper post routing, down tube guard, PF92, G2 Geometry on 29ers, 100mm travel",
+            "fork": "Fox Rhythm 32 Float, GRIP adjustable damper, E2 tapered steerer, G2 Geometry w/51mm offset on 29ers, 100mm travel",
+            "rims": "Bontrager Duster Elite 23, Tubeless Ready, 54T Rapid Drive, Boost110 front, Boost148 rear (15.5\": 142x12 rear), tubeless strips included, valves sold separately"
                  },
         {
             "brand": "Electra",
             "model": "Ticino 7D- 2017",
             "price": "899.99",
-            "img": "electra.jpg"
+            "img": "electra",
+            "frame": "Ticino 6061-T6 Alloy",
+            "fork": "High Tensile Steel Investment Cast Lugged Crown",
+            "rims": "Electra Custom Double Wall Alloy Anodized 32H"
                  },
         {
             "brand": "Fyxation",
             "model": "Eastside - 2017",
             "price": "689.99",
-            "img": "fyxation.jpg"
+            "img": "fyxation",
+            "frame": "Track Geometry, Full 4130 Chromoly Eastside Frame/Fork. Two Tone Fade Paint",
+            "fork": " Fyxation Alloy Track, 46T, Ano. Finish",
+            "rims": "40mm Deep Dish, Double Wall, 32H, Machined Sidewall"
                  }
 
                 ]
