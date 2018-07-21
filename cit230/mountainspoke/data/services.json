@@ -1,0 +1,34 @@
+{
+    "services": [{
+            "name": "The Basics",
+            "price": "$32",
+            "details": "Bike Wiped Down, lubrication of drivetrain, etc."
+    },
+        {
+            "name": "The Essentials",
+            "price": "$148",
+            "details" : "Replacement of a few parts if needed"
+    },
+        {
+            "name": "The Works",
+            "price": "$212",
+            "details": "deep clean and some part replacement if needed."
+    },
+        {
+            "name": "Complete Overhaul - No Suspension",
+            "price": "$335",
+            "details": "Bike frame parts can be replaced if needed."
+                 },
+        {
+            "name": "Complete Overhaul - Full Suspension",
+            "price": "$415",
+            "details" : "Everything on the bike can be replaced if needed."
+                 }
+
+
+    ]
+
+
+
+
+}

@@ -1,0 +1,30 @@
+@media only screen and (min-width: 1024px) {
+
+
+
+    header{
+        width: 900px;
+        margin: auto;
+    }
+
+    .accordion{
+        width: 700px;
+    }
+
+    nav ul{
+        display: flex;
+        width: 809px;
+
+    }
+
+    nav ul li a{
+        width: 115px;
+        margin: auto;
+    }
+
+
+
+
+
+}
+
