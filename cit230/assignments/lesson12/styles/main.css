@@ -116,11 +116,12 @@ main {
 }
 
 
-button{
+#contactLink{
     background: orange;
     border: solid 1px #233D4D;
     border-radius: 50px;
     color: #619B8A;
+    padding: 5px;
 }
 
 
